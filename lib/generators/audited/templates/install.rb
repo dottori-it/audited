@@ -9,7 +9,7 @@ class <%= migration_class_name %> < ActiveRecord::Migration
       t.column :user_type, :string
       t.column :username, :string
       t.column :action, :string
-      t.column :audited_changes, :json
+      t.column :audited_changes, :jsonb
       t.column :version, :integer, :default => 0
       t.column :comment, :string
       t.column :remote_address, :string
