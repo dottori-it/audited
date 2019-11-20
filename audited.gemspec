@@ -22,7 +22,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'rails-observers', '~> 0.1.2'
 
   gem.add_development_dependency "protected_attributes"
-  gem.add_development_dependency 'appraisal', '~> 1.0.0'
+  gem.add_development_dependency 'appraisal', '~> 2.2.0'
   gem.add_development_dependency 'rails', '~> 4.2.0'
   gem.add_development_dependency 'rspec-rails', '~> 3.0'
 
