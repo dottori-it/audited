@@ -34,7 +34,7 @@ Gem::Specification.new do |gem|
   else
     gem.add_development_dependency 'sqlite3', '~> 1.3'
     gem.add_development_dependency 'mysql2', '~> 0.3.20'
-    gem.add_development_dependency 'pg', '~> 0.18'
+    gem.add_development_dependency 'pg', '~> 1.1'
   end
 end
 
